@@ -6,3 +6,8 @@
 - Uses eBPF to detect failed TLS handshakes
 - Monitors certificate verification failures
 - Outputs failure details in real-time
+
+## Use Docker
+
+docker build -t tls-sentinel .
+docker run --privileged -it tls-sentinel
